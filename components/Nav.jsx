@@ -24,12 +24,12 @@ const Nav = () => {
       <Link href="/" className='flex gap-2 flex-center'>
         <Image 
           src="/assets/images/logo.svg"
-          alt="Promptopia logo"
+          alt="AI Prompts logo"
           width={30}
           height={30}
           className='bject-contain'
         />
-        <p className='logo_text'>Promptopia</p>
+        <p className='logo_text'>AI Prompts</p>
       </Link>
 
       {/* Desktop navigation */}
@@ -75,7 +75,7 @@ const Nav = () => {
           <div className='flex'>
             <Image 
               src={session?.user?.image}
-              alt="Promptopia logo"
+              alt="AI Prompts logo"
               width={30}
               height={30}
               className='bject-contain'
